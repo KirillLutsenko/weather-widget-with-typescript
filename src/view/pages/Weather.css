@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: no-repeat url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.button,
+.reset-button {
+  background-color: #C584BC;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover,
+.reset-button:hover {
+  cursor: pointer;
+  background-color: #966590;
+}
+
+.reset-button {
+  margin-top: 10px;
+}
+
+.weather-widget__main-block {
+  position: relative;
+}

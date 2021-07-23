@@ -5,7 +5,7 @@ import React from 'react';
 import { useForecast } from '../../../../bus/weather';
 
 // Styles
-import './TemperatureInputs.css';
+import './index.css';
 
 export const TemperatureInputs = () => {
   const {

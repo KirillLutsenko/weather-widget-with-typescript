@@ -3,10 +3,10 @@ import React from 'react';
 
 // Components
 import { TemperatureInputs } from './TemperatureInputs';
-import { TypeOfWeather } from './TypeOfWeather.js/TypeOfWeather';
+import { TypeOfWeather } from './TypeOfWeather';
 
 // Styles
-import './FilterBlock.css';
+import './index.css';
 
 export const FilterBlock = () => (
   <div className="filter">

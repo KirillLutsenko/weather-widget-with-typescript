@@ -1,4 +1,4 @@
-import { compose } from 'redux';
+import { compose, Middleware } from 'redux';
 import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk';
 
@@ -15,10 +15,9 @@ export const logger = createLogger({
   },
 });
 
-
 const developmentEnvironment = process.env.NODE_ENV === 'development';
 
-const devtools = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__;
+const devtools = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 console.log(devtools);
 
@@ -27,7 +26,7 @@ const composeEnhancers = developmentEnvironment
   ? devtools
   : compose;
 
-const middleware = [thunk];
+const middleware: Middleware[] = [thunk];
 
 // если у нас режим разработки добавляем в массив logger
 if (developmentEnvironment) {

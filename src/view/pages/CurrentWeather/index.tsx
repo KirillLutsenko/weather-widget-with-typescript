@@ -6,7 +6,7 @@ import { useForecast } from '../../../bus/weather';
 import { useWeatherDayId } from '../../../bus/client/activeDay';
 
 // Styles
-import './CurrentWeather.css';
+import './index.css';
 
 // Types
 import { getHumidityType, getRainProbabilityType, getTemperatureType } from '../pagesTypes';

@@ -7,7 +7,7 @@ import { useWeatherDayId } from '../../../bus/client';
 import { useForecast } from '../../../bus/weather';
 
 // Styles
-import './Forecast.css';
+import './index.css';
 
 // Tpes
 import { getTemperatureType, handleDayType } from '../pagesTypes';

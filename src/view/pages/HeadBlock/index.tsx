@@ -6,7 +6,7 @@ import { useForecast } from '../../../bus/weather';
 import { useWeatherDayId } from '../../../bus/client/activeDay';
 
 // Styles
-import './HeadBlock.css';
+import './index.css';
 
 const classNames = require('classnames');
 const moment = require('moment');

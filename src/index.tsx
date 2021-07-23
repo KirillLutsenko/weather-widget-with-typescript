@@ -7,7 +7,7 @@ import { Provider as ReduxProvider } from 'react-redux';
 import { store } from './init/store';
 
 // App
-import { Weather } from './view/pages/Weather';
+import { Weather } from './view/pages';
 
 ReactDOM.render(
   <ReduxProvider store={store}>

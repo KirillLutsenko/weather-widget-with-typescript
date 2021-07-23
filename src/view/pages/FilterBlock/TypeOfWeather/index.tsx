@@ -5,7 +5,7 @@ import React from 'react';
 import { useForecast } from '../../../../bus/weather';
 
 // Styles
-import './TypeOfWeather.css';
+import './index.css';
 
 const classNames = require('classnames');
 

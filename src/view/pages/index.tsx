@@ -4,12 +4,12 @@ import React from 'react';
 // Components
 import { useForecast } from '../../bus/weather';
 import { FilterBlock } from './FilterBlock';
-import { HeadBlock } from './HeadBlock/HeadBlock';
-import { CurrentWeather } from './CurrentWeather/CurrentWeather';
-import { Forecast } from './Forecast/Forecast';
+import { HeadBlock } from './HeadBlock';
+import { CurrentWeather } from './CurrentWeather';
+import { Forecast } from './Forecast';
 
 // Styles
-import './Weather.css';
+import './index.css';
 
 // Types
 import { getTemperatureType } from './pagesTypes';
